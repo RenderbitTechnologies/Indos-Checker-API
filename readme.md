@@ -2,6 +2,7 @@
 
 [![Tests](https://github.com/RenderbitTechnologies/Indos-Checker-API/actions/workflows/tests.yml/badge.svg)](https://github.com/RenderbitTechnologies/Indos-Checker-API/actions/workflows/tests.yml)
 [![Latest Stable Version](https://img.shields.io/packagist/v/renderbit-technologies/indos-checker-api)](https://packagist.org/packages/renderbit-technologies/indos-checker-api)
+[![Total Downloads](https://img.shields.io/packagist/dt/renderbit-technologies/indos-checker-api)](https://packagist.org/packages/renderbit-technologies/indos-checker-api)
 [![PHP Version](https://img.shields.io/packagist/php-v/renderbit-technologies/indos-checker-api)](https://packagist.org/packages/renderbit-technologies/indos-checker-api)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
