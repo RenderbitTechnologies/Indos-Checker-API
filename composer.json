@@ -1,5 +1,5 @@
 {
-    "name": "renderbit/indos-checker-api",
+    "name": "renderbit-technologies/indos-checker-api",
     "description": "Check seafarer details from Indos number",
     "type": "library",
     "license": "MIT",

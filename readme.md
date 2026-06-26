@@ -5,7 +5,7 @@ An API to check for the validity of INDOS numbers as issued by the Directorate G
 ## Usage
 
 ```shell
-$ composer require renderbit/indos-checker-api
+$ composer require renderbit-technologies/indos-checker-api
 ```
 
 ```php
