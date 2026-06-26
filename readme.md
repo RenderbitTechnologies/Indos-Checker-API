@@ -9,7 +9,7 @@ $ composer require renderbit-technologies/indos-checker-api
 ```
 
 ```php
-$checker = new \Renderbit\IndosCheckerApi\IndosChecker();
+$checker = new \RenderbitTechnologies\IndosCheckerApi\IndosChecker();
 
 $checker->checkValid('05LL0262', '14/08/1963');
 // true
@@ -34,7 +34,7 @@ $checker->getData('05LL0262', '14/08/1963');
 ### Exception handling
 
 ```php
-use Renderbit\IndosCheckerApi\IndosCheckerException;
+use RenderbitTechnologies\IndosCheckerApi\IndosCheckerException;
 
 try {
     $data = $checker->getData($no, $dob);
@@ -51,7 +51,7 @@ Pass a configured `GuzzleHttp\Client` to override timeouts, proxies, etc.:
 
 ```php
 $client  = new \GuzzleHttp\Client(['timeout' => 5.0]);
-$checker = new \Renderbit\IndosCheckerApi\IndosChecker($client);
+$checker = new \RenderbitTechnologies\IndosCheckerApi\IndosChecker($client);
 ```
 
 &copy; Renderbit Technologies 2022. All rights reserved.

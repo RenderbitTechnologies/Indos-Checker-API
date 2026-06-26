@@ -1,6 +1,6 @@
 <?php
 
-namespace Renderbit\IndosCheckerApi;
+namespace RenderbitTechnologies\IndosCheckerApi;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;

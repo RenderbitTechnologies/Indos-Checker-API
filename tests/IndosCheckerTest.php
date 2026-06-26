@@ -1,6 +1,6 @@
 <?php
 
-namespace Renderbit\IndosCheckerApi\Tests;
+namespace RenderbitTechnologies\IndosCheckerApi\Tests;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ConnectException;
@@ -10,8 +10,8 @@ use GuzzleHttp\Middleware;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
 use PHPUnit\Framework\TestCase;
-use Renderbit\IndosCheckerApi\IndosChecker;
-use Renderbit\IndosCheckerApi\IndosCheckerException;
+use RenderbitTechnologies\IndosCheckerApi\IndosChecker;
+use RenderbitTechnologies\IndosCheckerApi\IndosCheckerException;
 
 class IndosCheckerTest extends TestCase
 {

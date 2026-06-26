@@ -5,12 +5,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Renderbit\\IndosCheckerApi\\": "src/"
+            "RenderbitTechnologies\\IndosCheckerApi\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Renderbit\\IndosCheckerApi\\Tests\\": "tests/"
+            "RenderbitTechnologies\\IndosCheckerApi\\Tests\\": "tests/"
         }
     },
     "authors": [

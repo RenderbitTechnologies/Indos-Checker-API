@@ -1,5 +1,5 @@
 <?php
 
-namespace Renderbit\IndosCheckerApi;
+namespace RenderbitTechnologies\IndosCheckerApi;
 
 class IndosCheckerException extends \RuntimeException {}
