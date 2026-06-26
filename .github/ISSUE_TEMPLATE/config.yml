@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security Vulnerability
+    url: mailto:security@renderbit.com
+    about: Please report security vulnerabilities privately via email
+  - name: Documentation
+    url: https://github.com/RenderbitTechnologies/Indos-Checker-API#readme
+    about: Check the documentation first
+  - name: Packagist
+    url: https://packagist.org/packages/renderbit-technologies/indos-checker-api
+    about: View package on Packagist

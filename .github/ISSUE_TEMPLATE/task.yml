@@ -1,0 +1,105 @@
+name: Task
+description: Create a task for chores, refactoring, or maintenance
+title: "[Task]: "
+labels: ["task"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for development tasks, chores, refactoring, or maintenance work.
+
+  - type: dropdown
+    id: task_type
+    attributes:
+      label: Task Type
+      description: What type of task is this?
+      options:
+        - Refactoring
+        - Code cleanup
+        - Documentation update
+        - Test improvement
+        - Dependency update
+        - CI/CD improvement
+        - Performance optimization
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Task Description
+      description: Describe what needs to be done.
+      placeholder: "Refactor the validation logic to..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why is this task necessary?
+      placeholder: "This will improve maintainability by..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance Criteria
+      description: How will we know this task is complete?
+      placeholder: |
+        - [ ] Refactoring complete
+        - [ ] All tests pass
+        - [ ] Documentation updated
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: What is the priority of this task?
+      options:
+        - Low
+        - Medium
+        - High
+        - Critical
+    validations:
+      required: true
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope
+      description: What is the scope of this change?
+      options:
+        - Single file
+        - Multiple files
+        - Entire module
+        - Project-wide
+    validations:
+      required: true
+
+  - type: textarea
+    id: related_issues
+    attributes:
+      label: Related Issues
+      description: Link any related issues.
+      placeholder: "Related to #123, Fixes #456"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checklist
+      description: Please confirm the following before submitting
+      options:
+        - label: I have checked that this task is not already tracked
+          required: true
+        - label: I have provided clear acceptance criteria
+          required: true
+        - label: I understand this is an open-source project and contributions are welcome
+          required: true
